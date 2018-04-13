@@ -1,5 +1,2 @@
-*.o
-golay
-golay_codes.c
-optar
-unoptar
+# meson build dir
+builddir
