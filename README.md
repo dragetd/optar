@@ -25,13 +25,13 @@ and every macOS system has this installed already.
 
 Compile with
 
-    make
+    meson builddir ; cd builddir ; ninja
 
 Note that there may be some hardcoded configuration values that you may need to
 change, for example the page size defaults to A4 instead of US Letter. Read on
 to learn where to change that.
 
-Installing locally
+Installing locally (Deprecated)
 ------------------
 
 It's easiest to install your local build with
